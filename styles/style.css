@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+/*  font-family: "Azeret Mono", monospace; */
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+}
+.container {
+  max-width: 914px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 70px;
+}
+.section-content {
+  margin-bottom: 38px;
+}
+.section-heading {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+.section-description {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 162.5% */
+  opacity: 0.7;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.primary-btn {
+}
+/* header styles */
+.header {
+}
+
+/* nav styles */
+nav {
+  margin-top: 25px;
+}
+nav .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu .nav-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.nav-menu .nav-btn {
+  border-radius: 4px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  padding: 12px 20px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+/* banner section styles */
+.header .banner-section {
+  background-color: lightgray;
+  height: 521px;
+  margin-top: 25px;
+  background-image: url("../images/Hero-bg.png");
+}
+.banner-section .banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.banner .banner-img {
+  width: 105px;
+  height: 110px;
+  margin-bottom: 22px;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner .banner-title {
+  max-width: 798px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 141.667% */
+  margin-bottom: 18px;
+}
+.banner .banner-description {
+  max-width: 682px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 162.5% */
+  margin-bottom: 20px;
+}
+.banner .banner-btn {
+}
+.banner-btn .btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+  background: #0d1321;
+  padding: 14px 20px;
+}
+/* header syles end */
+/* main styles */
+/* development syles */
+.development-section {
+}
+.development-section .development {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 72px 86px 20px;
+}
+.development .development-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px;
+}
+.development-content .development-left-content {
+}
+.development-left-content .development-title {
+  max-width: 312px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 150% */
+  margin-bottom: 12px;
+}
+.development-left-content .development-description {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 162.5% */
+  margin-bottom: 24px;
+}
+.development-left-content .dev-btn {
+}
+.dev-btn .primary-btn {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  padding: 8px 17px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.development-content .development-image {
+  width: 220px;
+  height: 200px;
+}
+.development-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* inspiration styles */
+.inspiration-section {
+}
+.inspiration-section .inspiration {
+}
+.inspiration .video {
+}
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+/*  font-family: "Azeret Mono", monospace; */
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+}
+.container {
+  max-width: 914px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 70px;
+}
+.section-content {
+  margin-bottom: 38px;
+}
+.section-heading {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+.section-description {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 162.5% */
+  opacity: 0.7;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.primary-btn {
+}
+/* header styles */
+.header {
+}
+
+/* nav styles */
+nav {
+  margin-top: 25px;
+}
+nav .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu .nav-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.nav-menu .nav-btn {
+  border-radius: 4px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  padding: 12px 20px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+/* banner section styles */
+.header .banner-section {
+  background-color: lightgray;
+  height: 521px;
+  margin-top: 25px;
+  background-image: url("../images/Hero-bg.png");
+}
+.banner-section .banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.banner .banner-img {
+  width: 105px;
+  height: 110px;
+  margin-bottom: 22px;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner .banner-title {
+  max-width: 798px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 141.667% */
+  margin-bottom: 18px;
+}
+.banner .banner-description {
+  max-width: 682px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 162.5% */
+  margin-bottom: 20px;
+}
+.banner .banner-btn {
+}
+.banner-btn .btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+  background: #0d1321;
+  padding: 14px 20px;
+}
+/* header syles end */
+/* main styles */
+/* development syles */
+.development-section {
+}
+.development-section .development {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 72px 86px 20px;
+}
+.development .development-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px;
+}
+.development-content .development-left-content {
+}
+.development-left-content .development-title {
+  max-width: 312px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 150% */
+  margin-bottom: 12px;
+}
+.development-left-content .development-description {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 162.5% */
+  margin-bottom: 24px;
+}
+.development-left-content .dev-btn {
+}
+.dev-btn .primary-btn {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  padding: 8px 17px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.development-content .development-image {
+  width: 220px;
+  height: 200px;
+}
+.development-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* inspiration styles */
+.inspiration-section {
+}
+.inspiration-section .inspiration {
+  display: flex;
+  flex-direction: column;
+}
+.inspiration .video {
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+/* current target section starts */
+.current-target {
+}
+.current-target .current {
+}
+.current .card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content .card {
+  display: flex;
+  width: 290px;
+  padding: 28px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card-content .card-1 {
+  border-radius: 10px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-content .card-2 {
+  border-radius: 10px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-content .card-3 {
+  border-radius: 10px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.card .card-img {
+  width: 45px;
+  height: 45px;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+.card .current-title,
+.next-content .next-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px; /* 150% */
+}
+.card .current-description,
+.next-content .next-description {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 162.5% */
+}
+.card .current-description-2,
+.next-content .next-description-2 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+/* future target starts */
